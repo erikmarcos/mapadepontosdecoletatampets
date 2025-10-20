@@ -1,0 +1,728 @@
+/* ======================== GOOGLE FONTS & ICONS ======================== */
+/* No <head> do HTML, use:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+*/
+
+/* ======================== VARIÁVEIS DE CORES MODERNAS ======================== */
+:root {
+  --primary: #4a87bf;
+  --secondary: #023f78; 
+  --accent: #f9a825;
+  --background: #f5f7fa;
+  --card-bg: #e0f7fa;
+  --sidebar-bg: #f7fafc;
+  --sidebar-shadow: 0 4px 18px 0 rgba(44,122,123,0.12);
+}
+
+/* ======================== RESET ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+body {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ======================== CENTRALIZAÇÃO E DESLOCAMENTO NO DESKTOP ======================== */
+@media (min-width: 769px) {
+  body.sidebar-open header,
+  body.sidebar-open .controls,
+  body.sidebar-open footer {
+    transform: translateX(-160px);
+    transition: transform 0.4s cubic-bezier(.46,1,.38,.98), opacity 0.3s;
+    opacity: 0.97;
+  }
+  body.sidebar-open .controls {
+    margin-right: 0 !important;
+  }
+}
+
+/* ======================== CENTRALIZAÇÃO NO MOBILE ======================== */
+@media (max-width: 768px) {
+  body.sidebar-open header,
+  body.sidebar-open .controls,
+  body.sidebar-open footer {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  body.sidebar-open .controls {
+    margin-right: 0 !important;
+  }
+}
+
+/* ======================== HEADER ======================== */
+header {
+  padding: 20px 24px 12px 24px;
+  background-color: var(--primary);
+  text-align: center;
+  z-index: 900;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 12px rgba(44, 122, 123, .07);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header .logo {
+  height: 58px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1.09rem;
+  color: #e2e8f0;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ======================== CONTROLES ======================== */
+.controls {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+/* CHAVE: INSERÇÃO DO BACKGROUND PERSONALIZADO */
+    background-image: url('/images/tampinhas.png'); 
+    background-size: cover; /* Ajusta a imagem para cobrir a área */
+    background-position: center; /* Centraliza a imagem no contêiner */
+    background-color: var(--card-bg); /* Cor de fallback, caso a imagem não carregue */
+
+  background-color: var(--card-bg);
+  padding: 18px 16px;
+  z-index: 900;
+  transition: transform 0.3s ease;
+  border-bottom: 3px solid var(--primary);
+  box-shadow: 0 4px 10px rgba(44,122,123,0.04);
+}
+
+.controls > div,
+.cep-box,
+.distance-box,
+.filter-box,
+.slicer-box {
+  border: 2px solid var(--primary);
+  border-radius: 14px;
+  padding: 12px 16px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--primary);
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(44,122,123,0.10);
+  max-width: 350px;
+  width: 100%;
+  min-width: 180px;
+}
+
+/* ======================== CEP BOX ESTILIZADA ======================== */
+.cep-box {
+  max-width: 230px;
+  min-width: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 10px;
+  padding: 8px 10px;
+  background: #fff;
+  border: 2px solid var(--primary);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(44,122,123,0.10);
+}
+
+.cep-box input[type="text"],
+#cepInput {
+  min-width: 90px;
+  max-width: 120px;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 0.97rem;
+  color: var(--primary);
+  border: 1px solid #b6d5f2;
+  border-radius: 8px;
+  background: #f5f7fa;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.cep-box input[type="text"]::placeholder,
+#cepInput::placeholder {
+  color: #8bb2d3;
+  font-size: 0.97rem;
+  opacity: 1;
+  font-family: inherit;
+  text-align: center;
+}
+
+.cep-box input[type="text"]:focus,
+#cepInput:focus {
+  border-color: var(--primary);
+  box-shadow: 0 2px 8px rgba(44,122,123,0.10);
+  background: #fff;
+}
+
+.cep-box button {
+  min-width: 68px;
+  max-width: 92px;
+  padding: 8px 0;
+  font-size: 0.98rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(44,122,123,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.4px;
+}
+
+.cep-box button i {
+  margin-right: 4px;
+}
+
+.cep-box button:hover,
+.cep-box button:focus {
+  background-color: #ffd54f;
+  color: var(--primary);
+  transform: scale(1.04);
+  outline: none;
+}
+
+/* ======================== SLICER BOX (DISTÂNCIA FILTRO) ======================== */
+.slicer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 2px solid var(--primary);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(44,122,123,0.10);
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary);
+  max-width: 350px;
+  width: 100%;
+  min-width: 180px;
+}
+
+/* Rótulo do filtro: leve, centralizado, sem negrito */
+.slicer-box > span {
+  font-size: 0.97rem;
+  color: var(--primary);
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  white-space: normal;
+  width: 100%;
+  display: block;
+}
+
+/* Radios: distribui horizontalmente, centralizados */
+.slicer-box .slicer-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  justify-content: center;
+  width: 100%;
+}
+
+.slicer-box label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.97rem;
+  color: var(--secondary);
+  font-weight: 500;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.slicer-box input[type="radio"] {
+  accent-color: var(--primary);
+  margin: 0 3px 0 0;
+  transform: scale(1);
+}
+
+/* RESPONSIVO: diminui gap se necessário */
+@media (max-width: 600px) {
+  .slicer-box {
+    gap: 7px;
+    padding: 8px 6px;
+    font-size: 0.93rem;
+    border-radius: 10px;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .slicer-box > span {
+    font-size: 0.92rem;
+  }
+  .slicer-box .slicer-options {
+    gap: 8px;
+  }
+  .slicer-box label {
+    gap: 1px;
+    font-size: 0.93rem;
+  }
+}
+
+
+/* ======================== DISTÂNCIA DES-EMPILHADO ======================== */
+.distance-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  min-width: 180px;
+}
+
+.distance-box label {
+  font-size: 0.99rem;
+  color: var(--primary);
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.distance-box .distancia-opcoes {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  width: 100%;
+  justify-content: center;
+}
+
+.distance-box .distancia-opcoes label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.97rem;
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+.distance-box input[type="radio"] {
+  margin: 0 4px 0 0;
+  accent-color: var(--primary);
+  transform: scale(1);
+}
+
+.distance-box span {
+  font-size: 0.97rem;
+  color: var(--secondary);
+  margin-left: 2px;
+}
+
+/* ======================== SELECT DE REGIÕES ======================== */
+.filter-box {
+  border: 2px solid var(--primary);
+  border-radius: 14px;
+  background: #fff;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--primary);
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(44,122,123,0.10);
+  min-width: 180px;
+  max-width: 260px;
+}
+
+#regiaoSelect {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.05rem;
+  color: #111;
+  padding: 8px 16px;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  background: #e0f7fa;
+  outline: none;
+  box-shadow: 0 1px 5px rgba(44,122,123,0.06);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  min-width: 120px;
+  max-width: 180px;
+  cursor: pointer;
+}
+
+#regiaoSelect:focus {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(44,122,123,0.15);
+}
+
+.filter-box label {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary);
+  font-weight: 500;
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+/* ======================== MAPA ======================== */
+#map {
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid var(--primary);
+  transition: transform 0.3s ease;
+  flex-grow: 1;
+  min-height: 320px;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 2px 18px rgba(44,122,123,0.09);
+}
+
+/* ======================== SIDEBAR ======================== */
+#sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 370px;
+  max-width: 95vw;
+  height: 100vh;
+  background: var(--sidebar-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: -4px 0 24px rgba(44, 122, 123, 0.15);
+  border-left: 4px solid var(--primary);
+  transform: translateX(100%);
+  transition: transform 0.4s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#sidebar.active {
+  transform: translateX(0);
+}
+
+#sidebar-content {
+  padding-top: 60px;
+  padding-right: 28px;
+  padding-bottom: 32px;
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  opacity: 0;
+  transform: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#sidebar.active #sidebar-content {
+  opacity: 1;
+  transform: none;
+}
+
+#sidebar-content h2 {
+  font-size: 2.1rem;
+  color: var(--primary);
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.05;
+}
+
+#sidebar-content h3 {
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--secondary);
+  font-size: 1.18rem;
+  margin-top: -5px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.sidebar-block,
+.sidebar-block.horario {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 15px 22px;
+  width: 100%;
+  box-shadow: var(--sidebar-shadow);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 14px rgba(44, 122, 123, 0.17);
+}
+
+.sidebar-block strong,
+.sidebar-block.horario strong {
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 6px;
+  font-size: 1.14rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.sidebar-block p {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  margin: 5px 0;
+  line-height: 1.46;
+}
+
+.sidebar-block.horario {
+  background: #e0f7fa;
+  border-left: 4px solid var(--primary);
+}
+
+.sidebar-btn-gmaps {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  background: linear-gradient(95deg, var(--primary) 10%, var(--secondary) 90%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 3px 10px rgba(47, 131, 199, 0.09);
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-btn-gmaps:hover {
+  background: linear-gradient(95deg, var(--secondary) 10%, var(--primary) 90%);
+  transform: translateY(-2px) scale(1.04);
+  color: var(--accent);
+}
+
+/* ======================== BOTÃO FECHAR ======================== */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background-color: #fff;
+  color: var(--primary);
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.11);
+  z-index: 1100;
+}
+
+.close-btn:hover {
+  background-color: var(--primary);
+  color: #fff;
+  transform: scale(1.09);
+}
+
+/* ======================== FOOTER ======================== */
+footer {
+  text-align: center;
+  background-color: var(--secondary);
+  color: white;
+  padding: 12px 0;
+  font-size: 1.05rem;
+  box-shadow: 0 -2px 6px rgba(44,122,123,0.09);
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.4px;
+}
+
+/* ======================== MOBILE RESPONSIVO ======================== */
+@media (max-width: 700px) {
+  body.sidebar-open header,
+  body.sidebar-open .controls,
+  body.sidebar-open footer {
+    transform: none !important;
+    opacity: 1 !important;
+    
+  /* === CORREÇÃO DA SIDEBAR PARA MOBILE === */
+    #sidebar {
+        width: 100% !important; /* Força a largura total da tela */
+        max-width: 100% !important; /* Garante que não haja limite de 95vw */
+        left: 0 !important; /* Força o alinhamento na extremidade esquerda */
+        right: auto !important; /* Desabilita o alinhamento pela direita */
+        /* O transform: translateX(100%) continua funcionando para escondê-la */
+    }
+
+    /* === CORREÇÃO DO BOTÃO FECHAR === */
+    .close-btn {
+        left: auto !important; /* Remove o alinhamento da esquerda */
+        right: 18px !important; /* Alinha o botão de fechar à direita */
+    }
+
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+  }
+  header .logo {
+    height: 38px;
+    margin-bottom: 0;
+  }
+  .header-text h1 {
+    font-size: 1.05rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2px;
+  }
+  .header-text p {
+    font-size: 0.78rem;
+    line-height: 1.18;
+    margin-top: 2px;
+    text-align: center;
+  }
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 2px;
+    align-items: center;
+    border-bottom: none;
+    box-shadow: none;
+    background: #fff;
+  }
+  .controls > div,
+  .cep-box,
+  .distance-box,
+  .filter-box,
+  .slicer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 8px 6px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    box-shadow: 0 1px 4px rgba(44,122,123,0.07);
+    margin-bottom: 0;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e0e8f0;
+  }
+  .cep-box {
+    max-width: 100%;
+    min-width: 0;
+    gap: 8px;
+    padding: 7px 5px;
+    border-radius: 10px;
+  }
+  #cepInput {
+    max-width: 95px;
+    min-width: 0;
+    font-size: 0.93rem;
+    padding: 7px 6px;
+  }
+  .cep-box button {
+    min-width: 56px;
+    max-width: 70px;
+    font-size: 0.93rem;
+    padding: 7px 0;
+    border-radius: 8px;
+  }
+  .distance-box {
+    gap: 6px;
+    padding: 7px 5px;
+    min-width: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .distance-box label {
+    font-size: 0.92rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .distance-box .distancia-opcoes {
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+  }
+  .distance-box .distancia-opcoes label {
+    font-size: 0.92rem;
+    gap: 2px;
+  }
+  .distance-box span {
+    font-size: 0.92rem;
+    margin-left: 1px;
+  }
+  .filter-box,
+  .slicer-box {
+    min-width: 0;
+    max-width: 100%;
+    padding: 8px 6px;
+  }
+  #regiaoSelect {
+    font-size: 0.93rem;
+    min-width: 0;
+    max-width: 100%;
+    padding: 8px 2px;
+  }
+  #map {
+    min-height: 220px;
+    height: 48vh;
+    border-radius: 0 0 14px 14px;
+    margin-top: 4px;
+  }
+  footer {
+        font-size: 0.90rem;
+        padding: 10px 0;
+      }
+}

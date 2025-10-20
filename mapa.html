@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pontos de Coleta - Projeto TamPets Sorocaba</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet (biblioteca de mapas) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+  <header>
+        <div class="header-content">
+            <img src="Logo (3).png" alt="Logo TamPets" class="logo">
+                    <div class="header-text">
+                        <h1>🧭 Pontos de Coleta - Projeto TamPets Sorocaba</h1>
+                        <p>Encontre os pontos de coleta mais próximos de você inserindo seu CEP ou filtrando por região.</p>
+                </div>
+            
+        </div>
+  </header>
+
+  <section class="controls">
+    <div class="cep-box">
+      <label for="cep-box">Seu CEP</label>
+      <input type="text" id="cepInput" placeholder="8 números" maxlength="9" />
+      <button id="buscarCEP">Buscar</button>
+    </div>
+
+    <div class="slicer-box">
+  <span>Distância do seu CEP</span>
+  <div class="slicer-options">
+    <label><input type="radio" name="distancia" value="1" checked> 1 km</label>
+    <label><input type="radio" name="distancia" value="5"> 5 km</label>
+    <label><input type="radio" name="distancia" value="10"> 10 km</label>
+  </div>
+</div>
+    <div class="filter-box">
+      <label for="regiaoSelect">Região/Cidade:</label>
+      <select id="regiaoSelect">
+        <option value="">Todas</option>
+        <option value="Centro">Centro</option>
+        <option value="Norte">Norte</option>
+        <option value="Sul">Sul</option>
+        <option value="Leste">Leste</option>
+        <option value="Oeste">Oeste</option>
+        <option value="Araçoiaba da Serra">Araçoiaba da Serra</option>
+        <option value="Itu">Itu</option>
+        <option value="Porto Feliz">Porto Feliz</option>
+        <option value="Salto de Pirapora">Salto de Pirapora</option>
+        <option value="São Roque">São Roque</option>
+        <option value="Votorantim">Votorantim</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <div id="map"></div>
+
+  <!-- Sidebar do ponto de coleta -->
+  <div id="sidebar">
+        <button class="close-btn" id="closeSidebar" title="Fechar sidebar">×</button>
+ </div>
+
+  <footer>
+    <p>🐾 Projeto TamPets Sorocaba - Coletar, Reciclar e Ajudar ♻️ • Sorocaba/SP</p>
+  </footer>
+
+  <!-- PapaParse (leitor de CSV) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+
+  <div id="overlay"></div>
+</body>
+</html>

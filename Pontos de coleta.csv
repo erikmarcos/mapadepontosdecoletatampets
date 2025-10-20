@@ -1,0 +1,1430 @@
+﻿ID;Região;Nome do Local;Endereço completo;Bairro;CEP;Coordenadas;Latitude; Longitude ;Categoria;Horário de Funcionamento
+N-001;Norte;PetShop Ibiti;Av. Victor Andrew, 700 - Zona Industrial, Sorocaba - SP, 18086-390;Zona Industrial;18086-390;-23.449383738272218, -47.440475001416786;-23.449560907875800;-47.440528647338300;Petshop;Terça à Sexta das 9h às 18h
+N-002;Norte;Nutrimed;Av. Ipanema, 4788 - Jardim Novo Horizonte, Sorocaba - SP, 18071-801;Jardim Novo Horizonte;18071-801;-23.457455393646356, -47.5026513609363;-23.457455393646300;-47.5026513609363;Loja de Suplementos;Seg. a Sábado das 8h às 20h/Domingos das 8h às 13h
+N-003;Norte;Agropecuária Sampaio;Av. Independência, 5032 - Éden, Sorocaba - SP, 18103-000;Bairro Éden;18103-000;-23.420981216074335, -47.41116415908855;-23.420981216074300;-47.41116415908850;Agropecuária;Seg. à sexta das 8h às 18h/Sábado das 8h às 16h
+N-004;Norte;Grupo de Escoteiros Terra Rasgada;Rua Bonifácio de Oliveira Cassú/ Praça  Pedro José Ayrolla;Bairro Éden;;-23.422610094423135, -47.419638060937366;-23.422610094423100;-47.419638060937300;Associação/Organização;
+N-005;Norte;Diferencial Imóveis;R. Fernandes Camacho, 6 - Jardim Alvorada, Sorocaba - SP, 18080-430;Jardim Alvorada;18080-430;-23.484604096636765, -47.46796954744204;-23.484604096636700;-47.46796954744200;Imobiliária;Seg. à Sexta das 9h às 16h/Sábado: 8h às 12h
+N-006;Norte; Studio de Pilates Mariana Amorim;R. Bartolomeu Bueno, 286 - Jardim Ana Maria, Sorocaba - SP, 18065-255;Jardim Ana Maria;18065-255;-23.483539035489976, -47.476627303264756;-23.483539035489900;-47.476627303264700;Academia/Studio;Seg. à Sexta das 7h às 21h/Sábado das 8h às 12h
+N-007;Norte; Lilicão Moda Pet;Rua Benedito Mariano dos Santos, 999 Loja 3 Éden - Boa Esperança, Sorocaba - SP, 18103-210;Bairro Éden;18103-210;-23.41589066706492, -47.42088842107765;-23.41589066706490;-47.42088842107760;PetShop;Seg. à Sexta das 9h às 18h30/Sábado das 9h às 18h
+N-008;Norte;E.M Tereza Ciambelli Gianini;Av. Rio Claro, 278 - Vila Nova Sorocaba, Sorocaba - SP, 18070-790;Vila Nova Sorocaba;18070-790;-23.467652326835054, -47.481763030251784;-23.467652326835000;-47.481763030251700;Escola Municipal;
+N-009;Norte;Conibase;Av. Ipanema, 4398 - Jardim Novo Horizonte, Sorocaba - SP, 18071-801;Jardim Novo Horizonte;18071-801;-23.460239914128813, -47.50010274559412;-23.460239914128800;-47.50010274559410;Materiais de Construção;Seg. à Sábado das 8h às 18h
+N-010;Norte;Clínica Veterinária AnimaVet;Av. Itavuvu, 1558 - Jardim Santa Cecilia, Sorocaba - SP, 18075-330;Jardim Santa Cecília;18076-005;-23.470842491159065, -47.47702233210039;-23.470842491159000;-47.47702233210030;Clínica Veterinária;Seg. à Sexta das 9h às 18h/Sábado das 9h às 14h30
+N-011;Norte;PetShop Feliz Cão;Rua Benedicto de Paula, 120 - Jardim Santo Amaro, Sorocaba - SP, 18074-684;Jardim Santo Amaro;18074-684;-23.449461294856423, -47.492055401416785;-23.449461294856400;-47.492055401416700;PetShop;Seg. à Sexta das 9h às 17h
+N-012;Norte;Bazar Anjos de Patas;R. Raymundo Frutuoso da Silva, 860 - Jardim São Conrado, Sorocaba - SP, 18076-280;Jardim São Conrado;18076-280;-23.46262492701957, -47.47035087258087;-23.46262492701950;-47.47035087258080;Bazar Beneficente;Agendar entrega pelo Whatsapp: (15) 99671-0757
+N-013;Norte;Bella Athena Pet's Banho e tosa;R. Antônio Piantore, 144 - Jardim Sao Guilherme, Sorocaba - SP, 18074-638;Jardim São Guilherme;18074-638;-23.454667512854847, -47.48667423394958;-23.454667512854800;-47.48667423394950;PetShop;Seg. à Sexta das 9h às 19h/Sábado das 9h às 18h
+N-014;Norte;Pet Store Sorocaba;Av. Edward Fru Fru Marciano da Silva, 880 - Jardim Sao Guilherme, Sorocaba - SP, 18074-621;Jardim São Guilherme;18074-621;-23.447849978608115, -47.489437003265714;-23.447849978608100;-47.489437003265700;PetShop;Seg. à Sexta das 9h às 18h/Sábado das 8h às 16h
+N-015;Norte;Pet Shop Amo Bicho;Av. Edward Fru Fru Marciano da Silva, 361 - Jardim Sao Guilherme, Sorocaba - SP, 18074-621;Jardim São Guilherme;18074-621;-23.45162866969172, -47.4873377609364;-23.45162866969170;-47.4873377609364;PetShop;Seg. à Sexta das 8h às 18h30/Sábado das 8h às 17h/Domingo das 9h às 12h
+N-016;Norte;Avicultura Família Nunes+C17:K17;R. Alcino Oliveira Rosa, 167 - Parque São Bento, Sorocaba - SP, 18072-660;Parque São Bento;18072-660;-23.43946539597008, -47.49876890511433;-23.43946539597000;-47.49876890511430;Casa de Ração;Seg. à Sexta das 9h às 18h/Sábado das 8h às 12h
+N-017;Norte;Casa de Ração Família Nunes;R. Salvador Falla, 23 - Parque São Bento, Sorocaba - SP, 18072-392;Parque São Bento;18072-392;-23.439455552468253, -47.49868307443013;-23.439455552468200;-47.49868307443010;Casa de Ração;Seg. à Sexta das 9h às 18h/Sábado das 8h às 12h
+N-018;Norte;Amor em Patinhas;R. Izidro Roque da Silva Telo - Parque São Bento, Sorocaba - SP, 18072-037;Parque São Bento;18072-037;-23.441266385093225, -47.501434074430215;-23.441266385093200;-47.501434074430200;Petshop;Seg. à Sexta das 9h às 18h/Sábado das 9h às 16h
+L-001;Leste;Toca Los Gatos;R. Diadema, 500 - Jardim Leocadia, Sorocaba - SP, 18085-330;Jardim Leocádia;18085-330;-23.474507869995517, -47.437672816758244;-23.474507869995500;-47.437672816758200;Bar/Cervejaria;5ª e 6ª das 14h às 23h/Sábado: Das 11h às 23h
+L-002;Leste;Splash Pet Care;R. Araraquara, 417 - Jardim Iguatemi, Sorocaba - SP, 18085-470;Jardim Leocádia;18085-470;-23.470612989405556, -47.436926580721334;-23.470612989405500;-47.436926580721300;Petshop;Seg. à Sexta das 8h às 18h30/Sábado das 9h às 13h
+L-003;Leste;Clínica Cantinho do Animal;R. Dr. Bezerra de Menezes, 46 - Jardim Maria do Carmo, Sorocaba - SP, 18081-080;Jardim Maria do Carmo;18081-080;-23.479038365292244, -47.44972454559353;-23.479038365292200;-47.44972454559350;Clínica Veterinária;Seg. à Sexta das 8h às 17h/Sábado das 8h às 11h
+L-004;Leste;Dom PetShop;Av. Dom Aguirre, 4555 - Vila Progresso, Sorocaba - SP, 18081-101;Jardim Maria do Carmo;18081-101;-23.47684386175549, -47.44283663332363;-23.47684386175540;-47.44283663332360;Petshop;Seg. à Sexta das 8h30 às 19h/Sábado das 8h30 às 18h
+L-005;Leste;Studio Consciência do Corpo;R. Profa. Regina Maria Prestes Momesso, 192 - Jardim Siriema, Sorocaba - SP, 18075-771;Jardim Siriema;18075-771;-23.47503205024329, -47.45746685863059;-23.47503205024320;-47.45746685863050;Academia/Studio;Seg. à Sexta das 7h às 12h/ 14h às 19h
+L-006;Leste;Comercial Multiuso;R. Olávo Bilac, 161 - Vila Santana, Sorocaba - SP, 18080-691;Vila Santana;18080-691;-23.48745048097869, -47.45403541860652;-23.48745048097860;-47.45403541860650;Materiais de Construção;Seg. à Sexta das 8h às 18h/Sábado das 8h às 16h
+L-007;Leste;Banhacão;R. São Vicente, 265 - Vila Santa Rita, Sorocaba - SP, 18080-010;Vila Santa Rita;18080-010;-23.487347300115026, -47.46030067442888;-23.487347300115000;-47.46030067442880;Petshop;Seg. à Sexta das 9h às 18h/Sábado das 9h às 15h30/Fechado para almoço das 11h30 às 13h
+L-008;Leste;Sagrado Pet;R. Sérgio Labarca, 13 - Jardim Santa Rosália, Sorocaba - SP, 18095-590;Jardim Santa Rosália;18095-590;-23.485263962781584, -47.44128042194015;-23.485263962781500;-47.44128042194010;Crematório;Seg. à Sexta das 8h às 12h - 14h às 18h/ Whatsapp: (15) 99676-8883
+L-009;Leste;Be Brave Coffee and Tea;R. Aparecida, 563 - Jardim Santa Rosália, Sorocaba - SP, 18095-000;Jardim Santa Rosália;18095-000;-23.488712141663214, -47.4529843744289;-23.488712141663200;-47.4529843744289;Cafeteria;De Seg. à Seg. das 8h às 21h
+C-001;Centro;Trujillo Aquatic Center;R. Profa. Irene Tienghi Púglia, 54 - Vila Trujillo, Sorocaba - SP, 18060-580;Vila Trujillo;18060-580;-23.48932618216848, -47.47366060326436;-23.48932618216840;-47.47366060326430;Academia/Studio;Seg. à Sexta das 7h às 12h - 13h às 20h/ Sábado das 8h às 14h
+C-002;Centro;Espaço Veterinário - Atendimento de Pets Silvestres e Exóticos em Sorocaba;Av. Brasil, 931 - Vila Santa Francisca, Sorocaba - SP, 18060-105; Vila Carvalho;18060-105;-23.48758760198584, -47.47576410141584;-23.48758760198580;-47.47576410141580;Clínica Veterinária;Seg. à Sexta das 9H às 19h30/Sábado das 9h às 17h
+C-003;Centro;Ferro Velho Bar;Av. Dr. Armando Sales de Oliveira, 50 - Vila Trujillo, Sorocaba - SP, 18060-370;Vila Trujillo;18060-370;-23.494728970108714, -47.467617032099774;-23.494728970108700;-47.467617032099700;Bar/Cervejaria;Quarta à domingo das 17h30 às 23h
+N-019;Norte;Vida Pet;R. Belo Horizonte, 1034 - Vila Helena, Sorocaba - SP, 18071-115;Vila Helena; 18071-115;-23.470618778910122, -47.49633560326499;-23.470618778910100;-47.49633560326490;Petshop;Seg. à Sexta das 9h às 19h/Sábado das 9h às 18h/Domingo das 9h às 13h
+N-020;Norte;Luau Banho e Tosa;R. Castilho Ariberti Fázio, 24 - Jardim Tupinamba, Sorocaba - SP, 18066-315;Jardim Tupinambá;18066-315;-23.479769492466446, -47.497644306681366;-23.479769492466400;-47.497644306681300;Banho e Tosa;Terça à Sábado das 10h às 18h
+N-021;Norte;Posto Shell;Av. Ipanema, 419 - Vila Carol, Sorocaba - SP, 18070-671;Vila Nova;18070-671;-23.483957335134576, -47.472109016757976;-23.483957335134500;-47.472109016757900;Posto de combustíveis;Seg. à Sábado das 8h às 19h
+N-022;Norte;Escola Estadual Sarah Salvestro;R. José Martinez Peres, 701 - Parque Vitoria Regia, Sorocaba - SP, 18078-348;Parque Vitória Régia;18078-348;-23.4329255432324, -47.463598918607936;-23.4329255432324;-47.463598918607900;Escola Estadual;Seg. à Sexta das 7h às 20h
+N-023;Norte;Bia Agropet's;Rua Izaura Lima Bono, 145 - Parque Vitoria Regia, Sorocaba - SP, 18078-380;Parque Vitória Régia; 18078-380;-23.433596444181216, -47.4667806590883;-23.433596444181200;-47.4667806590883;Petshop;Seg. à Sábado das 9h às 19h/Domingo das 9h às 13h
+L-010;Leste;Agropecuária Aparecidinha;R. Juvenal Machado, 134 - Aparecidinha, Sorocaba - SP, 18087-270;Aparecidinha;18087-270;-23.4417715557444, -47.37382806093689;-23.4417715557444;-47.37382806093680;Agropecuária;Seg. à Sexta das 8h às 18h/Sábado das 8h às 16h
+L-011;Leste;AgroPet Villa Amato;R. Vital de Mello, 82 - sala 1 - Jardim Residencial Villa Amato, Sorocaba - SP, 18087-632;Vila Amato;18087-632;-23.44954719826529, -47.383891756187694;-23.44954719826520;-47.383891756187600;Petshop;Seg. à Sexta das 9h às 18h/Sábado das 9h às 16h
+L-012;Leste;Óticas Único (Supermercado Coop);R. Padre Madureira, 255 - Vila Arruda, Sorocaba - SP, 18013-210;Árvore Grande;18013-210;-23.496551611788412, -47.442457389770695;-23.496551611788400;-47.442457389770600;Ótica;Seg. à Sábado das 9h às 21h
+L-013;Leste;Casa da Voluntária Rosângela;R. Ovídio Correa, 65 - Jardim Novo Eldorado, Sorocaba - SP, 18108-310;Brigadeiro Tobias;18108-310;-23.493449952712066, -47.387465476277214;-23.493449952712000;-47.387465476277200;Residência particular;
+L-014;Leste;Bazar Astúrias;R. Joaquim Roque de Oliveira, 664 - Vila Astúrias, Sorocaba - SP, 18108-360;Brigadeiro Tobias;18108-360;-23.500961456285754, -47.369263903263814;-23.500961456285700;-47.369263903263800;Bazar;Seg. à Sexta das 9h às 17h
+L-015;Leste;Óticas Precisão;Av. São Paulo, 4252 - Granja Olga, Sorocaba - SP, 18013-004;Jardim Bandeirantes;18013-004;-23.491669445192773, -47.41158267442865;-23.491669445192700;-47.41158267442860;Ótica;Seg. à Sábado das 9h às 20h
+L-016;Leste;Jô Banho e Tosa;R. Artur Tarsitani, 112 - Jardim Goncalves, Sorocaba - SP, 18016-620;Jardim Gonçalves;18016-620;-23.49272427950086, -47.42710091127247;-23.49272427950080;-47.42710091127240;Banho e Tosa;Terça à Sexta das 9h às 18h/Sábado das 9h às 15h
+L-017;Leste;Saúde a Vida - Espaço Terapêutico;R. Doraci de Barros, 223 - Jardim Goncalves, Sorocaba - SP, 18016-400;Jardim Gonçalves; 18016-400;-23.492211294736283, -47.42887092513816;-23.492211294736200;-47.42887092513810;Academia/Studio;Entrega de tampinhas somente com hora marcada pelo Whatsapp: (15)98803-0163
+L-018;Leste;Colégio Expande;R. Antônio Rodrigues Sanches, 147 - Jardim Ipe, Sorocaba - SP, 18017-005;Jardim Ipê;18017-005;-23.489533522158187, -47.4224202455933;-23.489533522158100;-47.4224202455933;Escola Particular;
+L-019;Leste;Escola Infantil Aconchego dos Anjos;Rua Antônio Rodrigues Sanches, 30, R. Antônio Rodrigues Sanches, 147 - Jardim Ipe, Sorocaba - SP, 18017-005;Jardim Ipê;18017-005;-23.489533522158187, -47.4224202455933;-23.489533522158100;-47.4224202455933;Escola Particular;
+L-020;Leste;Banho e Tosa Cão Contente;R. Belmira Loureiro de Almeida, 302 - Jardim Piratininga, Sorocaba - SP, 18016-081;Jardim Piratininga;18016-081;-23.493327707699066, -47.4309758032643;-23.493327707699000;-47.4309758032643;Banho e Tosa;Seg. à Sexta das 8h às 18h/Sábado das 8h às 15h
+L-021;Leste;Cantina Universidade de Sorocaba;Rod. Raposo Tavares, km 92,5 - Vila Artura, Sorocaba - SP, 18023-000;Vila Artura;18023-000;-23.500512518509638, -47.39783547116447;-23.500512518509600;-47.39783547116440;Universidade;
+L-022;Leste;Vó Coruja Pet Shop Sorocaba;Em frente ao parquinho infantil CEI - R. Bolívia, 160 - Vila Barcelona, Sorocaba - SP, 18025-720; Vila Barcelona; 18025-720;-23.49329818924033, -47.4309758032643;-23.49329818924030;-47.4309758032643;Petshop;Seg. à Sábado das 8h às 18h
+L-023;Leste;Academia Duplo Impacto;R. Cervantes, 208 - Vila Assis, Sorocaba - SP, 18025-174;Vila Assis;18025-174;-23.510359652908143, -47.44509781860601;-23.510359652908100;-47.44509781860600;Academia/Studio;Seg. à Sexta das 7h às 12h - das 15h às 21h30/Sábado das 11h às !4h
+L-024;Leste;Be Power Beauty House;R. Augusto de Assis, 97 - Vila Assis, Sorocaba - SP, 18025-172;Vila Assis;18025-172;-23.51286770442411, -47.446610276276814;-23.51286770442410;-47.446610276276800;Salão de beleza;Terça à Sábado das 9h às 18h
+L-025;Leste;Escola Infantil Aconchego dos Anjos Unidade II;R. Pedro José Senger, 132 - Vila Haro, Sorocaba - SP, 18015-000;Vila Haro;18015-000;-23.498998197747234, -47.443245274428634;-23.498998197747200;-47.443245274428600;Escola Particular;
+L-026;Leste;Studio Diva's;R. Martins de Oliveira, 415 - Vila Haro, Sorocaba - SP, 18015-245;Vila Haro;18015-245;-23.49683699057313, -47.43857163209972;-23.49683699057310;-47.43857163209970;Salão de beleza;
+L-027;Leste;Casa de Ração Agro Show;Praça Cel. Joaquim Estanislau de Arruda, 202 - Vila Haro, Sorocaba - SP, 18013-130;Vila Haro;18013-130;-23.496470350923666, -47.438931530250876;-23.496470350923600;-47.438931530250800;Petshop;Seg. à Sexta das 9h às 19h/Sábado das 9h às 18h
+L-028;Leste;Raquel Tattoo;R. Ramon Haro Martini, 659 - Vila Haro, Sorocaba - SP, 18015-140;Vila Haro;18015-140;-23.50064913913583, -47.42834931675744;-2350064913913580;-47.42834931675740;Estúdio de tatuagem;Terça, Quinta e Sexta: 9h às 12h - 13h30 às 18h/Quarta: 9h às 12h - 13h30 às 20h/Sábado: 9h às 14h
+L-029;Leste;Mecânica Wilson;A. Coronel Nogueira Padilha, 2399 Salao A, Sorocaba - SP, 18020-003;Vila Hortência;18020-003;-23.51222969362124, -47.431689560934636;-23.51222969362120;-47.431689560934600;Auto-mecânica;Seg. à Sexta das 8h às 12h / 14h às 18h - Fone: 3227-2728
+L-030;Leste;Com.art Sorocaba;R. Quinzinho de Barros, 361 - Vila Hortência, Sorocaba - SP, 18020-266;Vila Hortência;18020-266;-23.504340221669597, -47.44424294559269;-23.504340221669500;-47.44424294559260;Loja de artesanato;Seg. à Sexta das 10h às 18h/Sábado das 10h às 14h
+L-031;Leste;Restaura Pisos Sorocaba;Rua: Professor Mário Aurélio Dias, 166 - Vila Lucy, Sorocaba - SP, 18043-070;Vila Hortência;18020-268;-23.50288585239154, -47.445033305112744;-23.50288585239150;-47.445033305112700;Serviços de Limpeza;Seg. à Sexta das 8h ás 17h/Sábado das 9h ás 13h
+L-032;Leste;Centro Automotivo Fábio Bellini;Av. Eng. Carlos Reinaldo Mendes, 441 - Além Ponte, Sorocaba - SP, 18013-280;Vila Rica;18013-280;-23.49087242876674, -47.43939824559341;-23.49087242876670;-47.43939824559340;Auto-mecânica;"Seg. à Sexta das 8h às 17h
+"
+L-033;Leste;Urban Fight;R. Antonio Aidar, 111 - 1º Andar - Parque Tres Meninos, Sorocaba - SP, 18016-280; Parque Três Meninos;18016-280;-23.49868439146833, -47.42940938341641;-23.49868439146830;-47.42940938341640;Academia/Studio;Seg. à Sexta das 9h às 20h/Sábado das 9h às 13h
+S-001;Sul; Óticas Único (Edíficio Dallas);Av. Antônio Carlos Comitre, 510 - Parque Campolim, Sorocaba - SP, 18047-620;Parque Campolim; 18047-620;-23.519958591564823, -47.46489040326345;-23.519958591564800;-47.46489040326340;Ótica;Seg, à sexta das 9h às 18h/Sábado das 9h às 13h
+S-002;Sul;Petland Campolim Sorocaba;Avenida Antônio Carlos Cômitre, 1230 - Piso Térreo - Parque Campolim, Sorocaba - SP, 18047-620;Parque Campolim;18047-620;-23.52575558590543, -47.46531007442792;-23.52575558590540;-47.46531007442790;Petshop;"Seg, à Sábado das 8h às 18h
+"
+S-003;Sul;Feet Confort Podologia;Mercadão Campolim - R. Antônio Perez Hernandez, 125 - box 62 - Parque Campolim, Sorocaba - SP, 18048-115;Parque Campolim;18048-115;-23.539575114307553, -47.467807847440476;-23.539575114307500;-47.467807847440400;Podólogo;Seg. à Quinta das 9h30 às 19h/Sexta das 9h30 às 18h/Sábado fechado
+S-004;Sul;ACUMED - Centro Clinico Veterinario Acumed;Rua Amador Bueno, 116 - Jardim Vergueiro, Sorocaba - SP, 18030-105;Jardim Vergueiro;18030-105;-23.504976183874017, -47.4624037897705;-23.504976183874000;-47.4624037897705;Clínica Veterinária;Seg. à Sexta das 8h às 18h/Sábado das 8h às 12h
+S-005;Sul;Óticas Precisão;Av. Caribe - Jardim America, Sorocaba - SP, 18046-780;Jardim América; 18046-780;-23.521620082104675, -47.4685901474411;-23.521620082104600;-47.4685901474411;Ótica;Seg. à Sexta das 10h às 19h/Sábado das 10h às 16h
+S-006;Sul;Pet Shop Pan e Cia;R. Polônia, 139 - Jardim Europa, Sorocaba - SP, 18045-010;Jardim Europa;18045-010;-23.51996633703327, -47.48575593953854;-23.51996633703320;-47.48575593953850;Petshop;Terça a Sábado das 8h às 17h/Sábado das 7h às 12h
+S-007;Sul;DPET ESTÉTICA ANIMAL - Banho e Tosa;R. Inglaterra, 645 - Jardim Europa, Sorocaba - SP, 18045-070; Jardim Europa;18045-070;-23.51666837504613, -47.48794948976996;-23.51666837504610;-47.48794948976990;Banho e Tosa;Seg. à Sexta das 8h às 17h/Sábado das 8h às 13h/Domingos e feriados: Fechado
+S-008;Sul;Studio Amanda Elias;R. Prof. Ovídio de Campos, 216 - Jardim Faculdade, Sorocaba - SP, 18030-170;Jardim Faculdade;18030-170;-23.510450305813105, -47.46204337442815;-23.510450305813100;-47.46204337442810;Salão de beleza;"Terça à Sábado das 10h às 18h
+"
+S-009;Sul;Auteliê Pet Center;R. Paulo Antônio do Nascimento, 30 - Jardim Portal da Colina, Sorocaba - SP, 18047-400;Jardim Portal da Colina;18047-400;-23.518325876199107, -47.46270773209914;-23.518325876199100;-47.46270773209910;Petshop;"Seg. à Sábado das 9h às 20h
+"
+S-010;Sul;Instituto de Oncologia de Sorocaba;Av. Comendador Pereira Inácio, 950 - Térreo - Jardim Vergueiro, Sorocaba - SP, 18030-005;Jardim Vergueiro;18030-005;-23.513634657554444, -47.45539030141495;-23.513634657554400;-47.45539030141490;Hospital/Clínica;Seg. à Quinta das 8h às 19h/Sexta das 8h às 18h
+S-011;Sul;Conjunto Hospitalar de Sorocaba;R. Claudio Manoel da Costa, 271 - Jardim Vergueiro, Sorocaba - SP, 18030-083;Jardim Vergueiro;18030-083;-23.509025774419637, -47.45828278977041;-23.509025774419600;-47.45828278977040;Hospital/Clínica;Segunda à Sexta das 8h às 16h
+O-001;Oeste;UFSCAR - CAMPUS SOROCABA;SP-264), Km 110 - Rod. João Leme dos Santos, s/n - Itinga, Sorocaba - SP, 18052-780;Bairro do Itinga;18052-780;-23.582214619117394, -47.52489691860382;-23.582214619117300;-47.52489691860380;Universidade;Segunda à Sexta das 8h às 16h
+O-002;Oeste;Avicultura Divino;Rua Dr. Luiz Mendes de Almeida, 600 - Largo do Divino, Sorocaba - SP, 18051-290;Bairro do Divino;18051-290;-23.517357475869588, -47.492608660934536;-23.517357475869500;-47.492608660934500;Agropecuária;Seg. à Sexta das 8h às 18h/Sábado das 8h às 15h
+O-003;Oeste;Pet Verden;R. Dr. Osmar Maciel, 421 - Central Parque Sorocaba, Sorocaba - SP, 18051-000;Central Parque ;18051-000;-23.514283510105788, -47.50684020326345;-23.514283510105700;-47.50684020326340;Petshop;Segunda a Sábado das 9h às 18h30/Domingo e Feriado das 9h às 13h
+O-004;Oeste;AgroPet  Vida Lar;R. José Carlos Paschoal, 254 - Central Parque, Sorocaba - SP, 18051-160;Central Parque;18051-160;-23.515497035829373, -47.50252027442802;-23.515497035829300;-47.50252027442800;Agropecuária;Seg. à Sexta das 9h às 9h/Sábado das 9h às 18h
+O-005;Oeste;Central Gás;Central Parque Sorocaba, Sorocaba - SP, 18051-005;Central Parque;18051-005;-23.517346492441025, -47.50433344776844;-23.517346492441000;-47.50433344776840;Companhia de gás;Seg. à Sexta das 8h às 19h/Sábado das 8h às 18h
+O-006;Oeste;Agro Pet San Silva;R. Januário Caserta, 265 - Jardim Nova Manchester, Sorocaba - SP, 18052-040;Jardim Nova Manchester;18052-040;-23.529434406431275, -47.496247089769774;-23.529434406431200;-47.496247089769700;Agropecuária;Seg. à Sexta das 8h às 18h/Sábado 8h às 15h
+O-007;Oeste;Cantina da Faculdade Anhanguera;Av. Dr. Armando Pannunzio, 1478 - Sala 1 - Jardim Itangua, Sorocaba - SP, 18050-000;Jardim Itanguá;18050-000;-23.52568334154939, -47.490972768496064;-23.52568334154930;-47.490972768496000;Universidade;Segunda à Sexta das 8h às 16h
+O-008;Oeste;Casa Pet;R. Profa. Zélia Dulce de Campos Maia, 206 - Jardim Paulistano, Sorocaba - SP, 18030-010;Jardim Paulistano;18030-010;-23.508011211202483, -47.4633440339481;-23.508011211202400;-47.4633440339481;Banho e Tosa;Seg, à Sexta das 9h às 18h/Sábado das 9h às 13h
+O-009;Oeste;Band FM;R. Clodomiro Paschoal, 118 - Jardim Paulistano, Sorocaba - SP, 18040-740;Jardim Paulistano;18040-740;-23.512178021950582, -47.46594296093476;-23.512178021950500;-47.46594296093470;Estúdio de Rádio;Seg. à Sexta das 8h às 17h
+O-010;Oeste;Zoolabor;R. Recife, 139 - Jardim Paulistano, Sorocaba - SP, 18040-850;Jardim Paulistano;18040-850;-23.511883174250837, -47.46908031860582;-23.511883174250800;-47.46908031860580;Laboratório Veterinário;Seg. à Sexta das 8h às 18h/Sábado das 8h às 12h
+O-011;Oeste;Dom Brechó;R. Nilza Neves Zuliani, 26 - Jardim Santa Barbara, Sorocaba - SP, 18053-367; Jardim Santa Bárbara;18053-367;-23.5022725414379, -47.52280978792192;-23.5022725414379;-47.52280978792190;Loja de Roupas;Seg. à Sexta das 9h às 8h/Sábado das 9h às 14h
+O-012;Oeste;Grasifico Petshop - Banho e Tosa;Av. Getúlio Vargas, 55 - Jardim Sao Paulo, Sorocaba - SP, 18051-480; Jardim São Paulo; 18051-480;-23.523815932377644, -47.491781087921304;-23.523815932377600;-47.491781087921300;Banho e Tosa;Seg. à Sexta das 8h às 17h/Sábado das 8h às 16h
+O-013;Oeste;Fran´s Café Confiança Sorocaba;Av. Dr. Armando Pannunzio, 1601 - Jardim Sao Carlos, Sorocaba - SP, 18050-000; Jardim São Carlos; 18050-000;-23.527043124399764, -47.48980547812511;-23.527043124399700;-47.48980547812510;Cafeteria;Todos os dias das 7h30 às 21h
+O-014;Oeste;Armazém dos Reis;Rua, R. Dr. Américo Figueiredo, 158 - Jardim Simus, Sorocaba - SP, 18055-131;Jardim Simus;18055-131;-23.50553638169021, -47.48649046661284;-23.50553638169020;-47.48649046661280;Loja de Produtos Naturais;Seg. à Sexta das 9h às 18h/Sábado das 9h às 13h
+O-015;Oeste;Casa de Rações Cat&Dog;R. Dr. Américo Figueiredo, 427 - Jardim Simus, Sorocaba - SP, 18055-132;Jardim Simus;18055-132;-23.506432347337338, -47.48873958977028;-23.506432347337300;-47.48873958977020;Casa de Rações;Seg. à Sábado das 9h às 18h/Tel: (15) 99682-1104
+O-016;Oeste;Loja Mayumi;R. Dr. Américo Figueiredo, 453 - Jardim Simus, Sorocaba - SP, 18055-127;Jardim Simus;18055-127;-23.506252354560708, -47.488972305112426;-23.506252354560700;-47.488972305112400;Presentes e Papelaria;Seg. à Sexta das 9h às 19H/Sábado das 9h às 14h/Domingos e Feriados: Fechado
+O-017;Oeste;PetShop Simus;R. Dr. Américo Figueiredo, 1120 - Jardim Simus, Sorocaba - SP, 18055-000;Jardim Simus;18055-000;-23.503739059602488, -47.494886445592925;-23.503739059602400;-47.494886445592900;Petshop;Seg. à Sexta das 8h às 19h/Sábado  das 8h às 13h
+O-018;Oeste;Mercearia Tia Ângela;Al. dos Miosótis, 163 - Jardim Simus, Sorocaba - SP, 18055-220;Jardim Simus;18055-220;-23.50362770465795, -47.49027423209948;-23.50362770465790;-47.49027423209940;Mercearia;Segunda à Sexta das 8h às 16h
+O-019;Oeste;Togs Petshop;Alameda das Catleas, 175 - Jardim Simus, Sorocaba - SP, 18055-177;Jardim Simus;18055-177;-23.505366037269862, -47.4926025032639;-23.505366037269800;-47.4926025032639;Petshop;Seg. à Sexta das 8h às 18h/Sábado das 9h às 17h
+O-020;Oeste;Pet One;Alameda Ezequiel Mantoanelli, 227 233 - Jardim Juliana, Indaiatuba - SP, 13340-350;Jardim  Vera Cruz;18056-555;-23.506262978142665, -47.50546084559304;-23.506262978142600;-47.50546084559300;PetShop;Seg. à Sexta das 8h às 19h/Sábado das 8h às 13h
+O-021;Oeste;Óticas Amor à Vista;Av. Salvador Milego, 106 - Jardim Vera Cruz, Sorocaba - SP, 18050-010;Jardim  Vera Cruz; 18050-010;-23.51117183033915, -47.48982834559282;-23.51117183033910;-4748982834559280;Ótica;Seg. à Sexta das 9h às 18h/Sábado das 9h ás 13h
+O-022;Oeste;Casa de Ração Agro Show - Loja 2;Rua José Latorre, 17 - Jardim Vera Cruz, Sorocaba - SP, 18050-210;Jardim  Vera Cruz;18050-210;-23.511422768779493, -47.49533807442805;-23.511422768779400;-47.49533807442800;Petshop;Seg. á Sexta das 9h às 19h/Sábado das 9h às 18h
+O-023;Oeste;AgroMaciel;R. Dr. Américo Figueiredo, 2960 - Júlio de Mesquita Filho, Sorocaba - SP, 18053-000;Júlio de Mesquita Filho;18053-000;-23.5025962907373, -47.51131350921784;-23.5025962907373;-47.51131350921780;Petshop;Seg. à Sexta das 8h às 19h/Sábado das 8h às 17h
+O-024;Oeste;Distribuidora JMF Água Mineral;Carmem Miranda,291 Esquina com a, R. Nara Leão - Júlio de Mesquita Filho, Sorocaba - SP, 18053-071;Júlio de Mesquita Filho;18053-071;-23.503739059602488, -47.494886445592925;-23.503739059602400;-47.494886445592900;Fornecedor de água engarrafada;Seg. à Sexta das 9h às 17h/Sábado: Fechado
+O-025;Oeste;Daie Papelaria;R. Prof. Edemir Antônio Digiampietri, 21 - Júlio de Mesquita Filho, Sorocaba - SP, 18053-130;Júlio de Mesquita Filho;18053-130;-23.50335323321276, -47.51546231675741;-23.50335323321270;-47.51546231675740;Presentes e Papelaria;Seg. à Sexta das 9h às 18hh/Sábado das 9h às 14h
+O-026;Oeste;Zoom Pet Store;R. Áureo Arruda, 67 - Júlio de Mesquita Filho, Sorocaba - SP, 18053-100;Júlio de Mesquita Filho;18053-100;-23.5048504134419, -47.51484241675725;-23.5048504134419;-47.51484241675720;Casa de Rações;Seg. à Sexta das 8h30 às 18h/Sábado das 9h às 15h
+O-027;Oeste;Casa de Esperança;Rua Antonia Dias Petri, 130 - Parque Santa Isabel, Sorocaba - SP, 18052-210;Parque Santa Isabel;18052-210;-23.531569866090187, -47.496655089769625;-23.531569866090100;-47.496655089769600;Associação Religiosa;"Segunda e Terça das 18h30 às 21h30
+"
+O-028;Oeste;Avicultura Pinheiro;R. Délcio Ferreira de Azevedo, 580 - Salao 04 - Jardim Piazza Di Roma, Sorocaba - SP, 18053-813;Júlio de Mesquita Filho;18051-730;-23.5122798390474, -47.5166666917015;-23.5122798390474;-47.5166666917015;Casa de ração;Seg. à Sexta das 9h às 19h30/Sábado das 9h às 18h/Domingo das 9h às 13h
+O-029;Oeste;Life PetShop;R. Antônio de Oliveira, 161 - Centro, Sorocaba - SP, 18040-120;Vila Augusta;18040-120;-23.502941526129625, -47.47427873209947;-23.502941526129600;-47.47427873209940;Petshop;Seg. à Sexta das 9h às 17h/Sábado das 9h às 14h
+O-030;Oeste;Casa de Ração Barão;Av. Percito de Sousa Queiroz, 873 - Vila Barao, Sorocaba - SP, 18061-240;Vila Barão;18061-240;-23.49071436941813, -47.48741177715751;-23.49071436941810;-47.48741177715750;Petshop;Seg. à Sexta das 8h às 19h/Sábado das 8h às 15h
+O-031;Oeste;Judô na Faixa JNF;Av. Percito de Sousa Queiroz, 205 - Vila Barao, Sorocaba - SP;Vila Barão;18061-240.;-23.49518724939184, -47.4822580167578;-23.49518724939180;-47.4822580167578;Academia/Studio;Segundas e Quartas  das 9h às 11h - 16h às 21h / Terças e Quintas das 9h às 11h -16h às 21h / Sexta das 17h às 21h
+O-032;Oeste;Dr. Coruja;Rua Dr. Luiz Mendes de Almeida, 1783 - Jardim Sao Paulo, Sorocaba - SP, 18051-290;Vila Espírito Santo;18051-290;-23.5257078117404, -47.499253230250204;-23.5257078117404;-47.499253230250200;Clínica Veterinária;Seg. á Sexta das 8h às 19h/Sábado das 8h às 17h
+O-033;Oeste;Studio BioAcrobatic;Rua Dr. Luiz Mendes de Almeida, 587 - Vila Espirito Santo, Sorocaba - SP, 18051-290;Vila Espírito Santo;18051-290;-23.517545864427383, -47.492191847441376;-23.517545864427300;-47.492191847441300;Academia/Studio;Segunda à Sexta das 8h às 16h
+O-034;Oeste;Instituto de Hemodiálise Sorocaba;R. Imperatriz Leopoldina, 57 - Vila Jardini, Sorocaba - SP, 18044-010;Vila Jardini;18044-010;-23.50524598423645, -47.471930887921815;-23.50524598423640;-47.471930887921800;Consultório médico;"Seg. à Sexta das 8h às 17h
+"
+O-035;Oeste;Brechó Segunda Chance;R. Visc. de Cairú, 544 - Vila Independencia, Sorocaba - SP, 18040-335;Vila Independencia; 18040-335;-23.50892775087705, -47.47207041860594;-23.50892775087700;-47.47207041860590;Bazar de roupas usadas;Seg. à Sexta das 10h às 18h/Sábado das 10h às 14h
+O-036;Oeste; Andrea's Hair;R. Francisco Ângelo, 223 - Vila Jardini, Sorocaba - SP, 18044-300;Vila Jardini;18044-300;-23.507768918001428, -47.47888806093476;-23.507768918001400;-47.47888806093470;Salão de beleza;Terça à Sexta das 9h às 18h/Sábado das 8h às 16h
+O-037;Oeste;Cat Dog Pet Store;R. Visc. do Rio Branco, 842 - Vila Jardini, Sorocaba - SP, 18044-000;Vila Jardini;18044-000;-23.51119857782641, -47.47631594559263;-23.51119857782640;-47.47631594559260;PetShop;Seg. à Sexta das 9h às 18h/Sábado das 9h às 14h
+O-038;Oeste;Edson Lanches;R. Visc. do Rio Branco, 1014 - Vila Jardini, Sorocaba - SP, 18044-000;Vila Jardini;18044-000;-23.512603556091463, -47.47549743209921;-23.512603556091400;-47.47549743209920;Lanchonete;Terça à Sábado das 17h às 00h00/Sábado das 17h às 23h
+O-039;Oeste;Casa da Voluntária Rosana;Rua Garcia Redondo, 120 - Vila Independencia, Sorocaba - SP, 18044-280;Vila Independencia; 18044-280;-23.512444346093005, -47.47310906093471;-23.512444346093000;-47.47310906093470;Residência Particular;Segunda à Sexta das 8h às 16h
+O-040;Oeste;Loja Del San;R. Visc. do Rio Branco, 689 - Vila Jardini, Sorocaba - SP, 18044-000;Vila Jardini;18044-000;-23.509836122747885, -47.476873903263744;-23.509836122747800;-47.476873903263700;Loja de roupas;Seg. à Sexta das 10h às 18h/Sábado das 10h às 14h
+O-041;Oeste;Salão Piramide's;R. Barão de Cotegipe, 601 - Vila Leao, Sorocaba - SP, 18040-420;Vila Leão;18040-420;-23.505772762031043, -47.47422976093486;-23.505772762031000;-47.47422976093480;Salão de beleza;"Sexta e Sábado das 10h às 16h
+"
+O-043;Oeste;Luck Chic Boutique;Av. Paulo Emanuel de Almeida, 108 - Wanel Ville, Sorocaba - SP, 18053-505;Wanel Ville;18053-505;-23.493082707388385, -47.510221574428755;-23.493082707388300;-47.510221574428700;Loja de Roupas;Seg. à Sexta das 10h às 18h/Sábado das 9h às 14h
+O-044;Oeste;Agro Maciel;Av. Elias Maluf, 2316 - Wanel Ville, Sorocaba - SP, 18055-215;Wanel Ville; 18055-215;-23.488841342785296, -47.51191227258024;-23.488841342785200;-47.51191227258020;Casa de ração;Seg. à Sexta das 8h às 19h/Sábado das 8h às 17h
+O-045;Oeste;Zeko's Beer;Av. Elias Maluf, 2050 - Wanel Ville, Sorocaba - SP, 18055-215;Wanel Ville;18055-215;-23.4893199423886, -47.5119803302513;-23.4893199423886;-47.5119803302513;Distribuidora de bebidas;Terça a sexta das 14h às 22h/Sábado das 10h às 22h
+C-001;Centro;Pet Shop Armazém Nakasone;Lateral externa do Mercado Municipal - Praça Comendador Nicolau Scarpa, s/n - Box 52 - Centro, Sorocaba - SP, 18035-011;Centro;18035-011;-23.497991461524165, -47.46037990326403;-23.497991461524100;-47.46037990326400;PetShop;Seg. à Sexta das 8h às 18h30/Sábado das 8h às 14h
+C-002;Centro;Óticas Precisão;R. da Penha, 693 - Centro, Sorocaba - SP, 18010-002;Centro;18010-002;-23.500354899772383, -47.4605939744285;-23.500354899772300;-47.4605939744285;Ótica;Seg. à Sexta das 8h às 18h/Sábado das 8h às 13h
+C-003;Centro;Sr Bicho Pet  Shop;R. Santa Cruz, 72 - Centro, Sorocaba - SP, 18035-630;Centro;18035-630;-23.504029973243377, -47.45614620326407;-23.504029973243300;-47.45614620326400;PetShop;Terça a Sexta das 13h às 18h/Sábado 9h às 15h
+L-034;Leste;JF Lub Super Troca de Óleo;R. Comendador Hermelino Matarazzo, 287 - Vila Santa Rita, Sorocaba - SP, 18080-971;Vila Santa Rita;18080-000;-23.49301557034071, -47.45837677442871;-23.49301557034070;-47.45837677442870;Troca de óleo;Seg. à Sexta das  8h às 18h/Sábado das  8h às 12h
+C-004;Centro;Sebo Sancel;R. Dom Antonio Alvarenga, 123 - Centro, Sorocaba - SP, 18080-001;Centro;18080-001;-23.496737472806373, -47.457266089770684;-23.496737472806300;-47.457266089770600;Livraria;Seg. das 8h às 18h/Sábado das 8h às 13h
+C-005;Centro;Vegan Heart;R. Dr. Ubaldino do Amaral, 249 - Centro, Sorocaba - SP, 18010-040;Centro;18010-040;-23.50053911684688, -47.45630767442856;-23.50053911684680;-47.45630767442850;Hamburgueria;"Terça a Domingo das 18h às 22h30
+"
+C-006;Centro;Dudu e Edu Pet Store;R. Goiás, 106 - Centro, Sorocaba - SP, 18035-550;Centro;18035-550;-23.50086724491277, -47.469546403264;-23.50086724491270;-47.469546403264;Petshop;Seg. das 12h30 às 18h30/Terça à Sexta das 9h às 18h30/Sábado das 8h às 17h30
+C-007;Centro;Majstra Formulações Veterinárias;R. Saldanha da Gama, 268 - Centro, Sorocaba - SP, 18035-040;Centro;18035-040;-23.49781903081145, -47.46438334559311;-23.49781903081140;-47.46438334559310;Farmácia;Seg. à Sexta das 8h às 18h/Sábado das 8h às 13h
+S-012;Sul;DPVAT Regional;R. Claudio Manoel da Costa, 386 - Jardim Vergueiro, Sorocaba - SP, 18030-083;Jardim Vergueiro;18030-083;-23.508666650506665, -47.45943990326377;-23.508666650506600;-47.45943990326370;Prestador de Serviços Públicos;"Seg. à Sexta das 7h30 às 17h
+"
+S-013;Sul;ACUMED - Centro Clinico Veterinario Acumed;Rua Amador Bueno, 116 - Jardim Vergueiro, Sorocaba - SP, 18030-105;Jardim Vergueiro;18030-105;-23.504986022489064, -47.46230723025075;-23.504986022489000;-47.46230723025070;Clínica veterinária;Seg. à Sexta das 8h às 18h/Sábado das 8h às 12h
+C-008;Centro;Casa 382 - Salas Comerciais;R. Mato Grosso, 382 - Vila Santa Terezinha, Sorocaba - SP, 18040-020;Vila Santa Terezinha;18040-020;-23.498471036047135, -47.472347816757676;-23.498471036047100;-47.472347816757600;Escritório de empresa;"Seg. à Sexta das 8h às 17h
+"
+C-009;Centro;Life Pet Shop Sorocaba;R. Antônio de Oliveira, 161 - Centro, Sorocaba - SP, 18040-120;Vila Augusta;18040-120;-23.50295136489662, -47.47423581675741;-23.50295136489660;-47.47423581675740;Petshop;Terça a Sexta das 9h às 17h/Sábado das 9h às 14h
+V-001;Votorantim;Cartório de Votorantim;R. Antônio Fernandes, 97 - Centro, Votorantim - SP, 18110-170;Centro de Votorantim;18110-170;;-23.54039708;-47.44904432;Tabelião;Seg. à Sexta das 9h às 17h
+V-002;Votorantim;Pet Shop Focinho Gelado em Votorantim - Centro de Estética Animal;Rua Paula Ney, 647 - Centro, Votorantim - SP, 18110-045;Centro de Votorantim;18110-045;;-23.54364176;-47.45399898;Petshop;Seg. à Sexta das 9h às 17h/Sábado das 9h às 13h
+V-003;Votorantim;Mundo Encantado do Bebê;Av. 31 de Março, 677 - Galeria 677 - Centro, Votorantim - SP, 18110-005;Centro de Votorantim;18110-005;;-23.5441851;-47.4475003;Loja de Roupas para Bebê;Seg. à Sexta das 9h às 17h30/Sábado das 9h às 14h
+V-004;Votorantim;Anjos de Bigode - Creche para Cachorro - Pet sitter Cães e Gatos - Hotel para cães - Banho e Tosa;R. Monte Alegre, 518 - Centro, Votorantim - SP, 18110-065;Centro de Votorantim;18110-065;;-23.5426135;-47.45251738;Hotel para Pets;Terça a quinta das 8h às 18h/Sexta das 8h às 17h/Sábado das 9h às 14h
+V-005;Votorantim;AgroReal;Av. Octávio Augusto Rangel, 461 - Jardim Toledo, Votorantim - SP, 18112-055;Jardim Toledo;18112-055;;-23.52817925;-47.43968562;Agropecuária;Seg. à Sexta  das 8h às 19h/Sábado das 8h às 14h
+V-006;Votorantim;Auto Center Votorantim;R. Levante Santucci, 318 - Vila Santo Antonio, Votorantim - SP, 18115-650;Vila Santo Antonio;18115-650;;-23.5658154;-47.45237383;Auto-mecânica;Seg. à Sexta das 8h às 12H - 13h às 19h
+V-007;Votorantim;Comércio de Tomates Márcio Box 115 e 116;R. Salvador Roque Romanó, 150 - Jardim Tatiana, Votorantim - SP, 18119-210;Jardim Tatiana;18119-210;;-23.54165372560702;-47.49450915;Atacadista de hortifrutigranjeiros;Terça, Quinta e Sábado das 13h às 16h
+V-008;Votorantim;Encanta Pet;Av. Matheus Conegero, 160 - Parque Bela Vista, Votorantim - SP, 18110-570;Parque Bela Vista; 18110-570;;-23.54221947;-47.46261633;Banho e Tosa;Seg. à Sexta das 9h às 18h/Sábado das 9h às 13h
+V-009;Votorantim;Pet Amigo;Av. Matheus Conegero, 408 - Parque Bela Vista, Votorantim - SP, 18110-570;Parque Bela Vista;18110-570;;-23.54196883;-47.46473471;Banho e Tosa;Seg. à Sexta das 9h às 18h/Sábado das 9h às 13h
+V-010;Votorantim;Distribuidora de Ovos Pró-Ovos;Rua Américo Maschetto, 207 - Pró-Morar, Votorantim - SP, 18113-660;Pró-Morar;18113-660;;-23.539377294092855;-47.41085981;Loja de alimentos orgânicos;Seg. à Sábado das 8h30  às 18h
+V-011;Votorantim;Agro Silva;R. Santa Filomena, 600 - Rio Acima, Votorantim - SP, 18111-325;Rio Acima;18111-325;;-23.53547158;-47.43380422;Agropecuária;Seg. à Sexta das 9h às 19h/Sábado das 9h às 14h
+V-012;Votorantim;AgroPet Alvorada;Av. Octávio Augusto Rangel, 869 - Jardim Toledo, Votorantim - SP, 18112-055;Jardim Toledo;18112-055;;-23.53174049;-47.43822845;Casa de ração;Seg. à Sexta das 8h às 18h/Sábado das 8h às 13h
+V-013;Votorantim;Pet Shop Tropa Q Late;R. Antônio Campos Filho, 235 - Vila Dominguinho, Votorantim - SP, 18114-160;Vila Dominguinho;18114-160;;-23.54217891;-47.44139862;Casa de ração;Seg. à Sexta das 9h às 18h/Sábado das 9h às 14h
+AS-001;Araçoiaba da Serra;Jessica Designer de Unhas;R. 21 de Abril, 155 - Centro, Araçoiaba da Serra - SP, 18190-000;Centro de Araçoiaba da Serra;18190-000;;-23.50627367;-47.61308668;Designer de unhas;Terça à Sexta das 9h às 18h/Sábado das 9h às 15h
+AS-002;Araçoiaba da Serra;Clínica Veterinária Cãoforto;R. Oscar Domingues de Campos, 667 - Sala 2 - Jardim Nossa Sra. Salete, Araçoiaba da Serra - SP, 18190-000;Jardim Nossa Sra. Salete;18190-000;;-23.50557251;-47.60181071;Clínica Veterinária;Seg. à Sexta das 8h30 às 17h/Sábado das 8h30 às 14h
+AS-003;Araçoiaba da Serra;Adega do Wilsinho;Av. Manoel Machado de Oliveira - Jardim M da Gloria, Araçoiaba da Serra - SP, 18190-000;Jardim Maria da Gloria; 18190-000;;-23.51139024;-47.61811371;Adega;Seg. à Sexta das 10h às 17h/Sábado das 10h às 13h
+IT-O1;Itu;Casa da Voluntária Simone;R. Ben Hur Camacho Júnior, 107 - Portal do Éden, Itu - SP, 13308-510;Portal do Éden;13308-510;;-23.40133876;-47.35100778;Residência Particular;Segunda à Sexta das 8h às 16h
+IT-O2;Itu;Clínica Veterinária Malucão;R. Demétrio Ligote Blackman, 45 - Jardim do Estadio, Itu - SP, 13309-301;Jardim do Estádio;13309-301;;-23.28085033;-47.28975082;Clínica veterinária;Seg. à Sexta das 8h às 18h/Sábado das 8h às 12h
+PI-01;Piedade;Academia Open Trainer;R. Padre Palma, 109 - Centro, Piedade - SP, 18170-000;Centro de Piedade;18170-000;;-23.712280254806473;-47.41956709;Academia/Studio;Horário para entrega das tampinhas: Seg. à Sexta das 14h30 às 20h30
+PI-02;Piedade;Pesqueiro do Marcelo;Estrada dos lavradores Gurgel, Piedade - SP, 18170-000;;18170-000;;-23.754430995415788;-47.33790405;Pesqueiro;Seg: Fechado/Terça à Domingo das 8h às 18h
+PI-03;Piedade;Creche da Roseira;Rodovia José de Carvalho, km 108, Bairro da Roseira - SP;Bairro da Roseira;18170-000;;-23.757267526247816;-47.47317533;Jardim de Infância;Segunda à Sexta das 7h às 16h
+PI-04;Piedade;Escola Clementino Vieira;Piedade - SP, 18170-000;Jurupara;18170-000;;-23.64499164287645;-47.44153106;Escola Estadual;Seg. a Sexta das 7h às 16h - Das 19h às 23h
+PI-05;Piedade;Agropecuária São José;R. Saladino de Araújo Leite, 620 - Vila Olinda, Piedade - SP, 18170-000;Vila Olinda;18170-000;;-23.711267177156284;-47.40793509;Agropecuária;Seg. a Sábado das 8h às 18h
+SP-01;Salto de Pirapora;AgroVet Rural;R. Honório de Almeida Barros, 585 - Terras de São João, Salto de Pirapora - SP, 18160-000;Terras de São João;18160-000;;-23.66099302504736;-47.58077779;Agropecuária;Seg. a Sábado das 8h às 18h
+SP-02;Salto de Pirapora;Atacadão Urla Urla Salto de pirapora;Av. Carlos Chagas, 162 - Jardim Primavera, Salto de Pirapora - SP, 18160-000;Jardim Primavera;18160-000;;-23.649600961505495;-47.57560072;Atacadista de Sorvetes;Seg. a Domingo das 10h às 21h
+SP-03;Salto de Pirapora;Jukaspan 2;R. João Leme dos Santos, 273 - Jardim Primavera, Salto de Pirapora - SP, 18162-080;Jardim Primavera; 18162-080;;-23.65566643232269;-47.57592841;Padaria;Seg. a Domingo das 6h30 às 20h
+SP-04;Salto de Pirapora;Elizete Modas e Acessórios;R. Silvio Pissinato, 159 - Jardim Santa Maria, Salto de Pirapora - SP, 18160-000;Jardim Santa Maria;18160-000;;-23.659077664503382;-47.57272659;Loja de Roupas;Segunda à Sexta das 8h às 16h
+SP-05;Salto de Pirapora;Quitanda Paulo e Néia;R. Virgílio Cerione, 379 - Jardim Silva Barros, Salto de Pirapora - SP, 18160-000;Jardim Silva Barros;18160-000;;-23.65912594;-47.57143156;Quitanda;Segunda à Sexta das 8h às 16h
+SP-06;Salto de Pirapora;Mariana Presentes e Acessórios;R. Benedito Schuermann de Barros, 370, Salto de Pirapora - SP, 18160-000;Jardim América; 18160-000;;-23.63728433;-47.57919019;Loja de Roupas e presentes;Segunda à Sexta das 8h às 16h
+SP-07;Salto de Pirapora;Rosângela Manicure;Rua Salvador Leme dos Santos, 269 - Jardim Maria Clara, Salto de Pirapora - SP, 18160-000;Jardim Maria Clara;18160-000;;-23.64471577;-47.56656189;Manicure;Segunda à Sexta das 8h às 16h
+SP-08;Salto de Pirapora;Mercado Esperança;R. Paulo dos Santos Guilherme, 256 - Jardim Maria Jose, Salto de Pirapora - SP, 18160-000;Jardim Maria José;18160-000;;-23.64447162;-47.56929051;Mercado;Seg. a Sábado das 8h às 20h/Domingo das 9h às 14h
+SP-09;Salto de Pirapora;Aqui Tem Mais Almodovar;R. Eugênio dos Santos Seabra, 121 - Jardim Paulistano, Salto de Pirapora - SP, 18160-000;Jardim Paulistano;18160-000;;-23.638902292869687; -47.57640117247099;Loja de artigos domésticos;Seg. a Sexta das 8h às 18h/Sábados das 8h às 16/Domingo: Fechado
+SP-10;Salto de Pirapora;Agro Pet Mundo Animal;R. Gonçalo Corrêa, 341 - Jardim Paulistano, Salto de Pirapora - SP, 18160-000;Jardim Paulistano;18160-000;;-23.63792906;-47.57574643;Agropecuária;Segunda à Sexta das 8h às 16h
+SP-11;Salto de Pirapora;Tikos Pastel;Rua Waldomiro de Almeida Barros - Jardim Silva Barros, Salto de Pirapora - SP, 18160-000;Jardim Silva Barros;18160-000;;-23.65457815;-47.57297722;Pastelaria;Segunda a Domingo das 17h às 23h
+SP-12;Salto de Pirapora;Sorvetes Fascinatto Salto de Pirapora;Rua Francisco de Barros Leite, 730 - Centro, Salto de Pirapora - SP, 18160-000;Campo Largo;18160-000;;-23.64324781;-47.57525316;Sorveteria;Segunda a Sexta das 10h às 21h/Sábado e Domingo das 10h às 22
+SP-13;Salto de Pirapora;Casa de Armarinhos Colcha de Retalhos;Av. Pedro Pires de Mello, 40 - 1 - Centro, Salto de Pirapora - SP, 18160-000;Centro de Salto de Pirapora;18160-000;;-23.65819869;-47.57663188;Loja de aviamentos;Segunda a Sexta das 9h às 18h/Sábado das 9h às 14h/Domingo: Fechado
+SP-14;Salto de Pirapora;Agro Campos;Praça João Guimarães, 007 - Jardim Silva Barros, Salto de Pirapora - SP, 18160-000;Jardim Silva Barros;18160-000;;-23.65798869;-47.57598736;Agropecuária;Seg. a Sábado das 8h às 18h/Domingo: Fechado
+SP-15;Salto de Pirapora;Salão Rei do Corte;Rua Ovídio Leme dos Santos, 45 - Centro, Salto de Pirapora - SP, 18160-000;Centro de Salto de Pirapora;18160-000;;-23.65028754;-47.57241186;Barbearia;Segunda à Sexta das 8h às 16h
+SP-16;Salto de Pirapora;Mercearia da Cleide;Rua Benedita Bueno de Oliveira, 35 - Piraporinha, Salto de Pirapora - SP, 18161-510;Piraporinha;18160-000;;-23.63839065;-47.51842386;Mercearia;Segunda à Sexta das 8h às 16h
+SP-17;Salto de Pirapora;Agropecuária Arcanjo;Av. Vicente Leme dos Santos, 593 - Jardim Primavera, Salto de Pirapora - SP, 18160-000;Jardim Primavera;18160-000;;-23.6504659;-47.58001716;Agropecuária;Seg. a Sábado das 8h às 18h/Domingo: Fechado
+SR-01;São Roque;PetHouse Casa de Ração;R. Tomás Antônio Gonzaga, 62 - Paisagem Colonial, São Roque - SP, 18136-700;Paisagem Colonial;18136-700;;-23.50621776;-47.159648;PetShop;Seg. à Sexta das 8h às 19h/Sábado das 8h às 18h
+L-034;Leste;Café com Gato;Av. Pereira da Silva, 866 - Jardim Santa Rosália, Sorocaba - SP, 18095-340;Jardim Santa Rosália; 18095-340;;-23.48943593;-47.44671921;Cafeteria;Seg. à Sexta das 14h às 20h/Sábado das 9h às 20h/Domingo das 9h às 20h
+L-035;Zona Leste;JV Recicláveis;R. Peru, 135 - Vila Barcelona, Sorocaba - SP, 18078-100;Vila Barcelona;18078-100;;-23.51403668;-47.43898969;Centro de Reciclagem;Segunda, Quarta e Sexta das 06h às 12h - 13h às 16h
+V-014;Votorantim;Real Auto Peças;R. Júlia Martins Domingues, 794 - Vila Domingues, Votorantim - SP, 18116-545;Vila Domingues; 18116-545;;-23.55094838;-47.46234543;Loja de Autopeças;Segunda à Sexta das 8h às 18h/Sábado das 8h às 12h/Domingo: Fechado
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;

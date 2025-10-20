@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tutorial Onboarding - Projeto TamPets Sorocaba</title>
+
+    <meta property="og:title" content="Mapa de Pontos de Coleta | Projeto TamPets Sorocaba" />
+
+    <meta property="og:url" content="https://erikmarcos.github.io/mapadepontosdecoletatampets/" />
+
+    <meta property="og:image" content="https://erikmarcos.github.io/mapadepontosdecoletatampets/imagem_share.png" />
+    
+    <meta property="og:description" content="Encontre o ponto de coleta de tampinhas plásticas mais próximo de você em Sorocaba e ajude a causa animal." />
+    
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="[SUA_URL_IMAGEM_COMPARTILHAMENTO_AQUI]">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="onboardingtutorial.css">
+
+  <style>
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--background);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    main {
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .onboarding-modal {
+      margin: 0 auto;
+    }
+
+    /* BG DA IMAGEM ATRÁS DO MODAL */
+    .onboarding-bg-img {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 100%; 
+      height: 100%;
+      z-index: 1;
+      background: url('images/tampinhas.png') center top/cover no-repeat;
+      pointer-events: none;
+    }
+    .onboarding-bg-img::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 100%; height: 100%;
+      background: rgba(44,135,191,0.22);
+    }
+    .onboarding-modal {
+      position: relative;
+      z-index: 2;
+    }
+
+    footer {
+      flex-shrink: 0;
+      text-align: center;
+      background-color: var(--secondary);
+      color: white;
+      padding: 18px 0;
+      font-size: 1.15rem;
+      box-shadow: 0 -2px 8px rgba(44,122,123,0.11);
+      letter-spacing: 0.4px;
+      width: 100%;
+    }
+
+    header {
+      padding: 20px 24px 12px 24px;
+      background-color: var(--primary);
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(44, 122, 123, .07);
+      width: 100%;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    header .logo {
+      height: 58px;
+      width: auto;
+      margin-bottom: 6px;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .header-text p {
+      margin: 0;
+      font-size: 1.09rem;
+      color: #e2e8f0;
+    }
+
+    /* ===== Transições entre steps ===== */
+    .onboarding-step {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s ease, transform 0.4s ease;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    .onboarding-step.active {
+      opacity: 1;
+      transform: translateY(0);
+      position: relative;
+      pointer-events: auto;
+    }
+
+    .onboarding-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 14px 24px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .onboarding-btn:hover {
+      background: var(--primary);
+      transform: scale(1.04);
+    }
+    .onboarding-choice-group.three-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.onboarding-choice-group.three-buttons .onboarding-btn-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 32px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.onboarding-choice-group.three-buttons .onboarding-btn-block {
+  min-width: 160px;
+  max-width: 240px;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onboarding-choice-group.three-buttons .onboarding-btn-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin-top: 0;
+}
+.onboarding-choice-group.three-buttons .onboarding-btn-bottom .onboarding-btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 200px;
+}
+/* FORA do @media: Regra que define a separação do botão Voltar no DESKTOP */
+.onboarding-choice-group.three-buttons .onboarding-btn-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    /* CHAVE: Adiciona margem superior no desktop */
+    margin-top: 36px; 
+}
+@media (max-width: 700px) {
+    /* ---------------------------------------------------- */
+    /* GERAL E CONTEÚDO DO MODAL (Regras base mantidas) */
+    /* ---------------------------------------------------- */
+    main {
+        min-height: 320px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .onboarding-content {
+        max-width: 99vw;
+        padding: 18px 7vw 12px 7vw;
+        border-radius: 13px;
+        min-height: 450px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Ícones e títulos compactos */
+    .onboarding-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 8px;
+    }
+    .onboarding-content h2 {
+        font-size: 1.09rem;
+        margin: 8px 0 5px 0;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 1.25rem; /* Seu tamanho atual no mobile */
+        line-height: 1.2;
+        margin: 8px 0 5px 0; /* Certifique-se de ter alguma margem */
+    }
+
+    /* Modifique para: */
+    .header-text h1 {
+        font-size: 1.05rem; /* Tornando o título mais compacto (ajuste o valor se precisar) */
+        line-height: 1.2;
+        margin: 8px 0 5px 0;
+    }
+
+    /* ... outras regras ... */
+}
+    
+    /* ---------------------------------------------------- */
+    /* BOTÕES: GRUPO DE DOIS (Mantendo suas regras originais) */
+    /* ---------------------------------------------------- */
+    .onboarding-choice-group.two-buttons,
+    .onboarding-nav.two-buttons {
+        display: flex !important;
+      flex-direction: row !important;
+      justify-content: center !important;
+      align-items: stretch !important; /* <--- VAMOS MUDAR ISSO */
+      gap: 18px !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 0;
+      height: auto !important;
+    }
+    .onboarding-choice-group.two-buttons .onboarding-btn-block,
+    .onboarding-nav.two-buttons .onboarding-btn-block {
+       flex: 1 1 0;
+       max-width: 44vw;
+       min-width: 120px;
+      padding: 0;
+      align-items: stretch !important;
+      text-align: center !important;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; /* <--- VAMOS ADICIONAR HEIGHT */
+      
+    }
+    .onboarding-choice-group.two-buttons .onboarding-btn {
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 14px 0;
+        border-radius: 10px;
+        margin-bottom: 0;
+        /* ... outros estilos de botão ... */
+    }
+    /* ... (outras regras two-buttons aqui) ... */
+    
+    /* ---------------------------------------------------- */
+    /* BOTÕES: GRUPO DE TRÊS OU MAIS (CORREÇÃO DE ALINHAMENTO E TAMANHO) */
+    /* ---------------------------------------------------- */
+    
+    /* Regra genérica para todos os grupos com mais de 2 botões (Mantém o empilhamento base) */
+    .onboarding-choice-group:not(.two-buttons),
+    .onboarding-nav:not(.two-buttons) {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .onboarding-choice-group.two-buttons .onboarding-btn-text,
+    .onboarding-nav.two-buttons .onboarding-btn-text {
+    /* Garante que o texto de apoio não tenha margem superior que o force a subir */
+    margin-top: 0 !important;
+    /* Tente adicionar: */
+    align-self: flex-end; /* Alinha o texto de apoio ao final do bloco (mesma função do justify-content, mas mais específico) */
+    /* ... outras regras ... */
+}
+    /* Contêiner principal para três botões */
+    .onboarding-choice-group.three-buttons {
+        gap: 0 !important;
+        margin-top: 50px !important;
+        margin-bottom: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    /* CHAVE: Forçar a linha superior a ser horizontal (Dois botões lado a lado) */
+    .onboarding-choice-group.three-buttons .onboarding-btn-row {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: stretch !important;
+        gap: 12px !important; /* Espaçamento entre os 2 botões de cima */
+        width: 100% !important;
+        margin-bottom: 0 !important;
+    }
+
+    /* CHAVE DE LARGURA IGUAL: Força cada bloco a ocupar 50% */
+    .onboarding-choice-group.three-buttons .onboarding-btn-row .onboarding-btn-block {
+        flex: 1 1 50%; /* <--- CHAVE: Força cada botão a ocupar metade do espaço */
+        max-width: 50%; 
+        min-width: unset; /* Remove restrições desnecessárias */
+        padding: 0;
+        align-items: stretch !important;
+        text-align: center !important;
+    }
+    
+    /* Estilo dos botões superiores */
+    .onboarding-choice-group.three-buttons .onboarding-btn {
+        font-size: 1.08rem;
+        padding: 15px 0;
+        width: 100%; /* Ocupa 100% dos 50% do bloco pai */
+        border-radius: 8px;
+        margin-bottom: 0;
+        margin-top: 0;
+        white-space: normal;
+        word-break: break-word;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        box-shadow: 0 2px 14px rgba(44,122,123,0.13);
+        transition: background 0.18s, color 0.18s, transform 0.14s;
+    }
+
+    /* *** CHAVE DE TAMANHO DO BOTÃO 'VOLTAR' NO MOBILE *** */
+    .onboarding-choice-group.three-buttons .onboarding-btn-block.onboarding-btn-bottom {
+        max-width: 250px; /* <--- Limita a largura do bloco do botão Voltar */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 26px auto 0 auto !important; /* Centraliza o bloco e adiciona margem superior */
+    }
+    .onboarding-choice-group.three-buttons .onboarding-btn-block.onboarding-btn-bottom .onboarding-btn {
+        max-width: 100%; /* O botão preenche o bloco de 250px */
+        min-width: 110px;
+        padding: 14px 0;
+        font-size: 1.02rem;
+        margin-bottom: 0;
+    }
+    
+    /* Estilos genéricos para outros blocos (Mantidos) */
+    .onboarding-btn-block {
+        min-width: 110px;
+        max-width: 98vw;
+        padding: 0;
+        align-items: center !important;
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 0;
+    }
+    .onboarding-btn-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.98rem;
+        line-height: 1.23;
+        max-width: 98vw;
+        margin-bottom: 7px;
+        margin-top: 0;
+        text-align: center !important;
+        font-weight: 500;
+        white-space: normal;
+        
+    }
+        
+
+    .onboarding-choice-group.two-buttons .onboarding-btn-block.height-fix {
+        /* Ajuste este valor até que o bloco Sim se alinhe com o Ainda Não */
+        padding-bottom: 20px !important; 
+    }
+
+    /* CHAVE: REFORÇA A CENTRALIZAÇÃO HORIZONTAL DO TEXTO DE APOIO */
+    .onboarding-choice-group.two-buttons .onboarding-btn-block .onboarding-btn-text {
+        text-align: center !important; /* Garante que o texto volte para o centro */
+        width: 100% !important; /* Garante que o parágrafo ocupe toda a largura disponível para centralizar */
+        gap: 10px
+
+
+
+    }
+    
+    /* ... (Suas regras de HEADER e FOOTER aqui) ... */
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img src="Logo (3).png" alt="Logo TamPets" class="logo">
+      <div class="header-text">
+        <h1>🧭 Tutorial do Mapa | Projeto TamPets Sorocaba</h1>
+        <p>Saiba como encontrar o ponto de coleta mais próximo de você</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- BG imagem atrás do modal -->
+    <div class="onboarding-bg-img"></div>
+    <div class="onboarding-modal">
+      <div class="onboarding-content">
+        <div class="onboarding-steps-wrapper">
+
+          <!-- Passo 1 -->
+          <section class="onboarding-step active" data-step="1">
+            <img src="images/unnamed.jpg"
+         alt="Descrição do processo de coleta"
+         style="max-width: 35%; 
+                height: auto; 
+                display: block; 
+                margin: 20px auto; 
+                border-radius: 8px;" />
+            <h2>Olá! Seja Bem-vindo(a) ao nosso Mapa de Pontos de Coleta do <br> Projeto TamPets Sorocaba!</h2>
+            <p>Ficamos muito felizes que queira se juntar à nossa corrente do bem de ajuda aos animais</p>
+            
+            <p><strong>Você já usou nosso mapa de pontos de coleta alguma vez?</strong></p>
+            <div class="onboarding-choice-group two-buttons">
+              <div class="onboarding-btn-block height-fix">
+                <button class="onboarding-btn" data-action="finish">Sim</button>
+                <p class="onboarding-btn-text">abrir o mapa</p>
+              </div>
+              <div class="onboarding-btn-block two-buttons">
+                <button class="onboarding-btn" data-action="next">Ainda não</button>
+                <p class="onboarding-btn-text">Ver instruções <br> (super simples!)</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Passo 2 -->
+          <section class="onboarding-step" data-step="2">
+              <h2>Como encontrar um <br>ponto de coleta?</h2>
+              <p>Você pode buscar de duas formas:</p>
+
+              <div class="onboarding-choice-group three-buttons">
+                <div class="onboarding-btn-row">
+                  <div class="onboarding-btn-block">
+                    <button class="onboarding-btn" data-action="choose-region">Por região/cidade</button>
+                  </div>
+                  <div class="onboarding-btn-block">
+                    <button class="onboarding-btn" data-action="choose-distance">Por distância (CEP)</button>
+                  </div>
+                </div>
+                <div class="onboarding-btn-block onboarding-btn-bottom">
+                  <button class="onboarding-btn onboarding-btn-back" data-action="back">Voltar</button>
+                </div>
+              </div>
+          </section>
+
+
+
+          <!-- Passo 3A -->
+          <section class="onboarding-step" data-step="3a">
+            <h2>📍 Buscar por Região/Cidade</h2>
+            <div style="text-align:center; width:100%;">
+              <ol style="display:inline-block; text-align:center; margin:0 auto;">
+                <p><strong>1.</strong> Neste menu, selecione sua região ou cidade no filtro.</p>
+                <img src="images/seletorderegião.png"
+                  alt="Exemplo de seleção de região"
+                  style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin:10px 0; display:block; margin-left:auto; margin-right:auto;" />
+                <p> <strong>2.</strong> Clique em <strong>Buscar</strong> e pronto! Todos os pontos da região selecionada aparecerão.</p>
+                <img src="images/filtroporregião.png"
+                  alt="Raio"
+                  style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin:10px 0; display:block; margin-left:auto; margin-right:auto;" />
+              </ol>
+            </div>
+            <div class="onboarding-nav two-buttons">
+              <button class="onboarding-btn onboarding-btn-back" data-action="back">Voltar</button>
+              <button class="onboarding-btn" data-action="next-3a">Próximo</button>
+            </div>
+          </section>
+
+
+
+
+          <!-- Passo 3B -->
+          <section class="onboarding-step" data-step="3b">
+            <h2>📍 Buscar por Distância (CEP)</h2>
+            <div style="text-align:center; width:100%;">
+              <ol style="display:inline-block; text-align:center; margin:0 auto;">
+                <p><strong>1.</strong> Digite seu CEP no campo indicado.</p>
+                <img src="images/CEPBOX.png" alt="Exemplo de campo CEP"
+                  style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin:10px 0; display:block; margin-left:auto; margin-right:auto;" />
+                <p><strong>2.</strong> Selecione a distância desejada <br>(1 km, 5 km, 10 km)</p>
+                <img src="images/distancia.png" alt="Exemplo de seleção de distância"
+                  style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin:10px 0; display:block; margin-left:auto; margin-right:auto;" />
+                <p><strong>3.</strong> Clique em <strong>Buscar</strong> onde você inseriu seu CEP</p>
+              </ol>
+            </div>
+            <div class="onboarding-nav two-buttons">
+              <button class="onboarding-btn onboarding-btn-back" data-action="back">Voltar</button>
+              <button class="onboarding-btn" data-action="next-3b">Próximo</button>
+            </div>
+          </section>
+
+
+
+
+          <!-- Passo 4 -->
+          <section class="onboarding-step" data-step="4">
+            <h2>Para saber mais informações sobre os Pontos de Coleta</h2>
+            <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
+              <div style="text-align:center;">
+                <p>Selecione um ponto no mapa para ver:</p>
+                <ul style="display:inline-block; text-align:left; margin:0 auto;">
+                  <li>Endereço completo</li>
+                  <li>Horário de funcionamento</li>
+                  <li>Como chegar via Google Maps</li>
+                </ul>
+              </div>
+              <img src="images/menudetalhes.png" alt="Menu com detalhes"
+                style="height:200px; max-width:180px; border:1px solid #ccc; border-radius:8px; margin:10px 0;" />
+            </div>
+            <div class="onboarding-choice-group two-buttons">
+              <div class="onboarding-btn-block">
+                <button class="onboarding-btn" data-action="back">Voltar</button>
+                <p class="onboarding-btn-text">Página anterior</p>
+              </div>
+              <div class="onboarding-btn-block">
+                <button class="onboarding-btn " data-action="finish">Entendi!</button>
+                <p class="onboarding-btn-text">Ir para o mapa</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Passo 5 -->
+          <section class="onboarding-step" data-step="5">
+            <h2>📍 Buscar por Distância (CEP)</h2>
+            <p><strong>4.</strong> Assim o mapa buscará e exibirá apenas os pontos de coleta localizados em um raio de 1km, 5km ou 10 kms a partir do CEP informado.</p>
+            <img src="images/localizaçãopordistância.png" alt="Mapa com pontos de coleta"
+              style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin:10px 0; display:block; margin-left:auto; margin-right:auto;" />
+            <p>Para trocar a distância é só usar o seletor, não precisa digitar o CEP de novo, ok? (:</p>
+            <div class="onboarding-choice-group two-buttons">
+              <div class="onboarding-btn-block">
+                <!-- handler customizado para voltar ao 3b -->
+                <button class="onboarding-btn" data-action="back-3b">Voltar</button>
+              </div>
+              <div class="onboarding-btn-block">
+                <!-- handler customizado para ir ao 4 -->
+                <button class="onboarding-btn" data-action="next-5">Próximo</button>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>🐾 Projeto TamPets Sorocaba - Coletar, Reciclar e Ajudar ♻️ • Sorocaba/SP</p>
+  </footer>
+
+  <script>
+    // Navegação SPA-like com transições suaves e handlers customizados
+    const stepsWrapper = document.querySelector('.onboarding-steps-wrapper');
+    let steps = Array.from(document.querySelectorAll('.onboarding-step'));
+    let stepOrder = ['1', '2', '3a', '3b', '4', '5'];
+
+    function showStep(stepKey) {
+      steps.forEach(s => s.classList.remove('active'));
+      const idx = stepOrder.indexOf(stepKey);
+      if (idx === -1) return;
+      steps[idx].classList.add('active');
+    }
+
+    // Delegação de eventos para garantir que só o botão do passo ativo navega
+    stepsWrapper.addEventListener('click', function(e) {
+      const btn = e.target.closest('button[data-action]');
+      if (!btn) return;
+
+      // Só processa clique se botão está no passo ativo
+      const activeStep = steps.find(s => s.classList.contains('active'));
+      if (!activeStep || !activeStep.contains(btn)) return;
+
+      const action = btn.dataset.action;
+      const activeStepKey = activeStep.dataset.step;
+
+      // Handlers customizados para passo 5
+      if (activeStepKey === '5' && action === 'back-3b') {
+        showStep('3b');
+        return;
+      }
+      if (activeStepKey === '5' && action === 'next-5') {
+        showStep('4');
+        return;
+      }
+
+      // Handler genérico: finish
+      if (action === 'finish') {
+        window.location.href = 'mapa.html';
+        return;
+      }
+      // Handler genérico: next
+      if (action === 'next') {
+        if (activeStepKey === '2') return;
+        const idx = stepOrder.indexOf(activeStepKey);
+        showStep(stepOrder[Math.min(idx + 1, stepOrder.length - 1)]);
+        return;
+      }
+      // Handler genérico: back
+      if (action === 'back') {
+        const idx = stepOrder.indexOf(activeStepKey);
+        showStep(stepOrder[Math.max(idx - 1, 0)]);
+        return;
+      }
+      // Handler: escolher região
+      if (action === 'choose-region') {
+        showStep('3a');
+        return;
+      }
+      // Handler: escolher distância
+      if (action === 'choose-distance') {
+        showStep('3b');
+        return;
+      }
+      // Handler: próximo do 3a
+      if (action === 'next-3a') {
+        showStep('4');
+        return;
+      }
+      // Handler: próximo do 3b
+      if (action === 'next-3b') {
+        showStep('5');
+        return;
+      }
+    });
+  </script>
+</body>
+</html>
