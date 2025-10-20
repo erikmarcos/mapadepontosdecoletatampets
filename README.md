@@ -4,7 +4,7 @@
 
 > **Status do Projeto:** Concluído e Publicado.
 >
-> **Acesse o Site Aqui:** [Link do Seu Site Publicado no GitHub Pages] 
+> **Acesse o Site Aqui: (https://erikmarcos.github.io/mapadepontosdecoletatampets)
 
 ---
 
@@ -42,7 +42,7 @@ Para ver o projeto em funcionamento:
 
 ## 🧑‍💻 Desenvolvedor
 
-**[Seu Nome/Usuário do GitHub]**
+**erikmarcos**
 
 * Este projeto faz parte do portfólio de desenvolvimento frontend com foco em usabilidade e responsividade.
 
