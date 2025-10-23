@@ -1,0 +1,6 @@
+ID;Região;Nome do Local;Endereço completo;Bairro;CEP;Coordenadas;Latitude; Longitude ;Categoria;Horário de Funcionamento
+N-001;Norte;PetShop Ibiti;Av. Victor Andrew, 700 - Zona Industrial, Sorocaba - SP, 18086-390;Zona Industrial;18086-390;-23.449383738272218, -47.440475001416786;-23.449560907875800;-47.440528647338300;Petshop;Terça à Sexta das 9h às 18h
+N-002;Norte;Nutrimed;Av. Ipanema, 4788 - Jardim Novo Horizonte, Sorocaba - SP, 18071-801;Jardim Novo Horizonte;18071-801;-23.457455393646356, -47.5026513609363;-23.457455393646300;-47.5026513609363;Loja de Suplementos;Seg. a Sábado das 8h às 20h/Domingos das 8h às 13h
+N-003;Norte;Agropecuária Sampaio;Av. Independencia, 5032 - Éden, Sorocaba - SP, 18103-000;Bairro Éden;18103-000;-23.420981216074335, -47.41116415908855;-23.420981216074300;-47.41116415908850;Agropecuária;Seg. à sexta das 8h às 18h/Sábado das 8h às 16h
+N-004;Norte;Grupo de Escoteiros Terra Rasgada;Rua Bonifácio de Oliveira Cassú/ Praça  Pedro José Ayrolla;Bairro Éden;;-23.422610094423135, -47.419638060937366;-23.422610094423100;-47.419638060937300;Associação/Organização;
+N-005;Norte;Diferencial Imóveis;R. Fernandes Camacho, 6 - Jardim Alvorada, Sorocaba - SP, 18080-430;Jardim Alvorada;18080-430;-23.484604096636765, -47.46796954744204;-23.484604096636700;-47.46796954744200;Imobiliária;Seg. à Sexta das 9h às 16h/Sábado: 8h às 12h
