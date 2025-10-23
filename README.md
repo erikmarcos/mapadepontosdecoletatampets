@@ -48,3 +48,16 @@ Para ver o projeto em funcionamento:
 
 ---
 *(Lembre-se de substituir o link da imagem no topo pela URL absoluta correta do GitHub Pages, e preencher os placeholders com o seu link real!)*
+
+## 🗂 Estrutura de Pastas (atualizada)
+
+Breve descrição da nova organização adotada para melhores práticas:
+
+- `index.html` — Página do tutorial/onboarding.
+- `mapa.html` — Página do mapa com Leaflet.
+- `css/` — Arquivos CSS (`style.css`, `onboardingtutorial.css`).
+- `js/` — Scripts JavaScript (`script.js`).
+- `data/` — Dados CSV (`pontos-de-coleta.csv`).
+- `images/` — Imagens e assets usados pelo site.
+
+Essa organização facilita deploy, manutenção e leitura do projeto.

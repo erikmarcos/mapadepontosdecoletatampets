@@ -1,0 +1,31 @@
+/* Onboarding tutorial styles moved under css/ */
+:root {
+  --primary: #4a87bf;
+  --secondary: #023f78; 
+  --accent: #237b65;
+  --background: #f5f7fa;
+  --card-bg: #e0f7fa;
+  --modal-bg: #fff;
+  --modal-shadow: 0 10px 28px rgba(44,122,123,0.15);
+  --modal-overlay: rgba(44, 135, 191, .14);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { height:100%; background-color:var(--background); }
+body { font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif; color:#333; display:flex; flex-direction:column; min-height:100vh; }
+.onboarding-bg-img::after { content:""; position:absolute; top:0; left:0; right:0; bottom:0; width:100vw; height:100vh; background:rgba(44,135,191,0.22); }
+main { flex:1 0 auto; display:flex; align-items:center; justify-content:center; position:relative; }
+.onboarding-modal { position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--modal-overlay); z-index:2000; }
+.onboarding-content { background:var(--modal-bg); border-radius:22px; box-shadow:var(--modal-shadow); padding:36px 28px 28px 28px; width:96vw; max-width:500px; min-height:500px; max-height:520px; display:flex; flex-direction:column; align-items:center; text-align:center; color:var(--primary); border:3px solid #4a87bf; }
+.onboarding-steps-wrapper { width:100%; min-height:340px; position:relative; }
+.onboarding-step { color:#333; opacity:0; pointer-events:none; transition:opacity 0.34s cubic-bezier(.55,.9,.41,1); position:absolute; width:100%; top:0; left:0; }
+.onboarding-step.active { opacity:1; pointer-events:auto; position:relative; }
+.onboarding-icon { width:58px; height:58px; margin-bottom:14px; display:block; margin-left:auto; margin-right:auto; }
+.onboarding-content h2 { font-size:1.42rem; color:var(--accent); font-weight:700; margin:8px 0 10px 0; }
+.onboarding-content p { font-size:1.09rem; color:#4a5878; margin-bottom:12px; }
+.onboarding-choice-group { display:flex; flex-direction:row; justify-content:space-between; gap:36px; width:100%; height:100px; margin:32px 0 0 0; }
+.onboarding-btn-block { display:flex; flex-direction:column; align-items:center; min-width:160px; max-width:240px; flex:1 1 180px; padding:0 8px; }
+.onboarding-btn { width:100%; max-width:200px; min-width:140px; padding:8px 0; border-radius:12px; background:#0c935f; color:#fff; font-size:1.2rem; font-weight:700; border:none; box-shadow:0 2px 14px rgba(44,122,123,0.13); cursor:pointer; margin-bottom:7px; }
+.onboarding-btn-text { font-size:1rem; color:#1b5d4c; text-align:center; font-weight:500; margin-bottom:0; margin-top:0; line-height:1.22; max-width:200px; }
+.onboarding-step h2, .onboarding-title { font-size:1.32rem; font-weight:700; color:var(--primary); margin-bottom:10px; text-align:center; }
+.onboarding-step p, .onboarding-question { font-size:1.02rem; color:var(--o-animation); margin-bottom:14px; margin-top:0; text-align:center; }
+@media (max-width:700px) { .onboarding-choice-group { flex-direction:column; gap:20px; align-items:center; } .onboarding-btn-block { min-width:200px; max-width:98vw; padding:0; align-items:center !important; text-align:center !important; } .onboarding-btn { font-size:1.08rem; padding:15px 0; border-radius:10px; max-width:98vw; } }
